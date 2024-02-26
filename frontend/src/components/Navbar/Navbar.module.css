@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: .5rem;
+    padding: .25rem;
+    border-radius: 1rem;
+    background-color: #01579b;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.brand > b {
+    font-size: x-large;
+    color: #efefef;
+}
+
+ul.items > * {
+    margin: 0 .5rem;
+    list-style: none;
+}
+
+.outlined {
+    color: #efefef !important;
+}
+
+@media screen and (max-width: 960px) {
+    ul.items > * {
+        margin: .5rem .5rem;
+    }
+}
